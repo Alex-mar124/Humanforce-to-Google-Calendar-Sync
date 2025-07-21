@@ -53,7 +53,7 @@ Edit the script and update:
 ```python
 USERNAME = "your_email_here"
 PASSWORD = "your_password_here"
-CALENDAR_ID = ""
+CALENDAR_ID = "your_calendar_id_here"
 ```
 
 ---

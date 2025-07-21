@@ -1,10 +1,6 @@
 
-# Sensitive Python variables
 *.env
 .env
-
-# Humanforce credentials
-secrets.py
 
 # Google API OAuth files
 credentials.json
@@ -17,10 +13,9 @@ __pycache__/
 *.pyd
 *.log
 
-# Downloads folder (optional)
+
 downloads/
 
-# OS-specific files
 .DS_Store
 Thumbs.db
 
