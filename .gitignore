@@ -15,8 +15,9 @@ __pycache__/
 
 
 downloads/
+testing/
 
 .DS_Store
 Thumbs.db
-
+history.json
 import.py
