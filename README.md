@@ -1,18 +1,24 @@
 
 # Humanforce → Google Calendar Sync
 
-A simple tool that automatically downloads your Humanforce roster and syncs it to your Google Calendar.
+A tool that automatically downloads your Humanforce roster and syncs it to your Google Calendar.
 
----
 
-## 📦 Setup
+## 🚀 Features
+- Downloads `.ics` roster files for **current** and **next month** from Humanforce.
+- Parses and uploads events to Google Calendar.
+- Prevents duplicate events by checking for existing entries within a 5-hour window.
+- Works in the background with **Windows Task Scheduler**.
 
-### 1. Install Python and dependencies
+## 📥 Installation
+
+### 1. [Download the Latest Release](https://github.com/Alex-mar124/Humanforce-to-Google-Calendar-Sync/releases/latest)
+
+### 2. Install Python
 - Install **Python 3.10+** from [python.org](https://www.python.org/downloads/).
-- Open a terminal in this project folder and run:
-```bash
-pip install -r requirements.txt
-````
+
+### Run the One Click Setup
+Run the included install.bat script by double-clicking it.
 
 ### 2. Enable Google Calendar API
 
@@ -21,7 +27,7 @@ pip install -r requirements.txt
 3. Download the `credentials.json` file and place it in the app’s data folder (or next to the `.py` file).
 4. On first run, your browser will open to authenticate with Google.
 
-### 3. Configure Humanforce
+### 3. Configure HumanForce Settings
 
 * Edit the settings with your infomation:
 
@@ -72,8 +78,5 @@ every day at your preferred time.
 
 * You can find your Google Calendar ID under **Calendar Settings → Integrate calendar**.
 * If you change `credentials.json`, delete `token.json` so the app will re-authenticate.
-
-```
-```
 
 
